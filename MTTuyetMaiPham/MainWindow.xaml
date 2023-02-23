@@ -1,0 +1,15 @@
+﻿<Window x:Class="MTTuyetMaiPham.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MTTuyetMaiPham"
+        mc:Ignorable="d"
+        Title="Sport Players" Height="450" Width="800">
+    <Grid Background="#FFCAF0F8">
+        <Button x:Name="btnViewHockey" Content="View Ice Hockey Players" HorizontalAlignment="Center" Margin="0,63,0,0" VerticalAlignment="Top" FontSize="20" Height="75" Width="270" Click="btnViewHockey_Click" Background="#FF023E8A" Foreground="White" FontWeight="Bold" />
+        <Button x:Name="btnViewBasketball" Content="View Basketball Players" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Width="270" Height="75" Click="btnViewBasketball_Click" Background="#FF023E8A" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="btnViewBaseball" Content="View Baseball Players" HorizontalAlignment="Center" Margin="0,278,0,0" VerticalAlignment="Top" FontSize="20" Width="270" Height="75" Click="btnViewBaseball_Click" Background="#FF023E8A" Foreground="White" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
